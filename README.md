@@ -1,11 +1,11 @@
 # Projeto Spring Boot - API de Clientes
 
-Este é um projeto de demonstração desenvolvido com o **Spring Boot** e a linguagem **Java**. O objetivo principal é fornecer uma API simples para gestão de clientes, utilizando conceitos básicos de Spring Boot, como Controllers, Services e configuração de CORS. Este projeto foi criado com fins educativos e para aumentar o conhecimento sobre o desenvolvimento de aplicações back-end com Spring Boot.
+Este é um projeto de demonstração desenvolvido com o **Spring Boot** e a linguagem **Java**. O objetivo principal é fornecer uma API simples para gestão de funcionários, utilizando conceitos básicos de Spring Boot, como Controllers, Services e configuração de CORS. Este projeto foi criado com fins educativos e para aumentar o conhecimento sobre o desenvolvimento de aplicações back-end com Spring Boot.
 
 ## Tecnologias Utilizadas
 
 - **Spring Boot**: Framework Java utilizado para a construção da API.
-- **Java 11+**: Linguagem de programação utilizada no desenvolvimento da aplicação.
+- **Java 21**: Linguagem de programação utilizada no desenvolvimento da aplicação.
 - **Maven**: Gestor de dependências utilizado para o projeto.
 - **JPA/Hibernate**: Para gestão de base de dados (se necessário).
 
@@ -15,7 +15,7 @@ Este projeto foi criado para fins de aprendizagem, permitindo que o desenvolvedo
 
 ## Funcionalidades
 
-- API REST simples para a gestão de clientes.
+- API REST simples para a gestão de funcionários.
 - Endpoint para buscar todos os clientes registados.
 - Configuração de CORS para permitir acesso de origens específicas.
 
@@ -30,11 +30,8 @@ Clone este repositório para a sua máquina local utilizando o comando:
 ```bash
 git clone https://github.com/joelmalacas/Customer/
 
-```bash
 mvn install
 
-```bash
 mvn spring-boot:run
 
-```bash
 http://localhost:8080/api/customers
