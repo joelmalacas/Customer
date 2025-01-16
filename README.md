@@ -1,4 +1,4 @@
-# Projeto Spring Boot - API de Clientes
+# Projeto Spring Boot - API de Funcionários
 
 Este é um projeto de demonstração desenvolvido com o **Spring Boot** e a linguagem **Java**. O objetivo principal é fornecer uma API simples para gestão de funcionários, utilizando conceitos básicos de Spring Boot, como Controllers, Services e configuração de CORS. Este projeto foi criado com fins educativos e para aumentar o conhecimento sobre o desenvolvimento de aplicações back-end com Spring Boot.
 
